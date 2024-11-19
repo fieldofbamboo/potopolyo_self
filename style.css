@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.head{   
+    background-color: skyblue;   
+    align-content: center;
+    text-align: center;
+ 
+}
+.footer{
+    background-color: skyblue;
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.description{
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    align-content: center;
+    
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+h1{
+    color: white;
+
+}
+.tel{
+    color: white;
+}
+@media (min-width:900px) {
+    img{
+        height: 200px;
+        float: left;
+        margin-left: 8rem;
+
+        }
+        .page{
+            display: block;
+            height: 300px;
+        }
+
+}
+@media(max-width:900px){
+    img{
+        height: 100px;
+    }
+
+    .body{
+        display: block;
+    }
+    .body page{
+        height: 1000px;
+    }
+}
+
